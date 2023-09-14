@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+}
+   
+h1 {
+  text-align: center;
+  margin-top: 80px;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Estilo para los elementos <p> */
+p {
+  text-align: left; 
+  font-size: 10px; 
+  margin-bottom: 10px; 
+}
+
+#guess-input {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 10px;
+  font-size: 18px;
+  width: 250px;
+  border: 1px solid #ccc;
+}
+   
+#guess-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #0CBABA;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+   
+button:active {
+  transform: scale(0.95);
+}
+   
+.letter {
+  border: 1px solid black;
+  padding: 3px;
+  margin: 3px;
+  min-width: 20px;
+  text-align: center;
+  display: inline-block
+}
+   
+.row{
+  margin-bottom: 10px;
+}
+   
+.input-area{
+  margin: 30px;
+}
+
+#titleintentos{
+  display: none;
+  text-align: center;
+}
+
+.centrado {
+  text-align: center;
+}
+
+#pista{
+  display: none;
+  text-align: center;
+}
+
+/* Estilo para las instrucciones */
+#instructions {
+  font-size: 16px; /* Tamaño de fuente para las instrucciones */
+  line-height: 1.4; /* Espaciado entre líneas */
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Wordle PPY</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      /* Estilos para las instrucciones */
+      #instructions {
+        font-size: 16px; /* Tamaño de fuente más pequeño */
+        line-height: 1.4; /* Espaciado entre líneas */
+      }
+    </style>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Wordle PPY</h1>
+    
+    <!-- Instrucciones del juego -->
+    <div id="instructions">
+      <h2>Instrucciones:</h2>
+      <p>¡Bienvenido a Wordle PPY!</p>
+      <p>El objetivo es adivinar la palabra secreta.</p>
+      <p>Tienes un total de 6 intentos para lograrlo.</p>
+      <p>Ingresa una palabra de 5 letras en el campo de abajo y presiona "Intentar".</p>
+      <p>Las letras correctas en la posición correcta se mostrarán en verde.</p>
+      <p>Las letras correctas en la posición incorrecta se mostrarán en amarillo.</p>
+      <p>Las letras incorrectas se mostrarán en gris.</p>
+      <p>¿Crees que puedes descifrar la palabra? ¡Buena suerte!</p>
+    </div>
+
+    <input type="text" id="guess-input">
+    <button id="guess-button">Intentar</button>
+    <h3 id="titleintentos">Intentos</h3>
+    <p id="pista">Pista: la palabra tiene 5 letras</p>
+    <div id="grid" class="centrado"></div>
+    <div>
+      <p id="guesses"></p>
+    </div>
+  </body>
+</html>
